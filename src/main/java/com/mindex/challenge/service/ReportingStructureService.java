@@ -4,5 +4,5 @@ import com.mindex.challenge.data.ReportingStructure;
 
 public interface ReportingStructureService {
 
-    ReportingStructure reportManagement(String id);
+    ReportingStructure getReport(String id);
 }

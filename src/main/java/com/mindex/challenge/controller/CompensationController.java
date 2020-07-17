@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
 public class CompensationController {
     private static final Logger LOG = LoggerFactory.getLogger(CompensationController.class);
@@ -24,7 +26,7 @@ public class CompensationController {
     }
 
     @GetMapping("/compensation/{id}")
-    public Compensation read(@PathVariable String id) {
+    public List<Compensation> read(@PathVariable String id) {
         LOG.debug("Reading compensation for id [{}]", id);
         return compensationService.read(id);
     }

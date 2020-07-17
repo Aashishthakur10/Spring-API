@@ -11,6 +11,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class CompensationServiceImpl implements CompensationService{
 
@@ -32,13 +34,13 @@ public class CompensationServiceImpl implements CompensationService{
     }
 
     @Override
-    public Compensation read(String id) {
+    public List<Compensation> read(String id) {
         LOG.debug("Compensation for [{}]",id);
         Employee employee = emp.findByEmployeeId(id);
         if (employee==null){
             throw new RuntimeException("Invalid request for id: " + id);
         }
-        Compensation compensation = comp.findByEmployee(employee);
+        List<Compensation> compensation = comp.findByEmployee(employee);
         if (compensation == null) {
             throw new RuntimeException("Invalid request for id: " + id);
         }

@@ -28,7 +28,7 @@ public class ReportingStructureController {
      * @return              Reporting structure which contains employee
      *                      info along with list of reports.
      */
-    @GetMapping("reportingstructure/{id}")
+    @GetMapping("/reportingstructure/{id}")
     public ReportingStructure reportingManagement(@PathVariable String id){
 
         LOG.debug("Received number of reports request for id [{}]", id);

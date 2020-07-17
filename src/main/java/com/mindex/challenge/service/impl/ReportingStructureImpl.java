@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.HashSet;
 import java.util.List;
 
 /**
@@ -23,6 +24,7 @@ public class ReportingStructureImpl implements ReportingStructureService {
 
     @Autowired
     private EmployeeRepository employeeRepository;
+    HashSet<String> idList = new HashSet<>();
 
     /**
      *
@@ -42,7 +44,7 @@ public class ReportingStructureImpl implements ReportingStructureService {
         ReportingStructure report = new ReportingStructure();
         report.setEmployee(employee);
         report.setNumberOfReports(findNumberOfReports(employee));
-
+        idList.add(employee.getEmployeeId());
         return report;
     }
 
@@ -60,7 +62,10 @@ public class ReportingStructureImpl implements ReportingStructureService {
         }
         int count = 0;
         for(Employee directReport:directReports){
-            count+= findNumberOfReports(employeeRepository.findByEmployeeId(directReport.getEmployeeId()))+1;
+            if (!idList.contains(directReport.getEmployeeId())) {
+                count += findNumberOfReports(employeeRepository.findByEmployeeId(directReport.getEmployeeId())) + 1;
+                idList.add(directReport.getEmployeeId());
+            }
         }
         return count;
     }

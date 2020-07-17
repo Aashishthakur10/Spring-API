@@ -77,10 +77,99 @@ This new type should have a new REST endpoint created for it. This new endpoint 
 the fully filled out ReportingStructure for the specified employeeId. The values should be computed on the fly and will 
 not be persisted.
 
+### Solution Task 1
+The following endpoint is available to use:
+```
+* READ
+    * HTTP Method: GET 
+    * URL: localhost:8080/reportingstructure/{id}
+    * RESPONSE: Reporting structure
+```
+The Reporting Structure has a JSON schema of:
+```json
+{
+   "employee": {
+       "type": "Employee",
+       "properties": {
+           "employeeId": {
+               "type": "string"
+           },
+           "firstName": {
+               "type": "string"
+           },
+           "lastName": {
+               "type": "string"
+           },
+           "position": {
+               "type": "string"
+           },
+           "department": {
+               "type": "string"
+           },
+           "directReports": {
+               "type": "array",
+               "items": "string"
+           }
+     },
+    "numberOfReports": {
+           "type": "int"
+      }
+}
+```
+
 ### Task 2
 Create a new type, Compensation. A Compensation has the following fields: employee, salary, and effectiveDate. Create 
 two new Compensation REST endpoints. One to create and one to read by employeeId. These should persist and query the 
 Compensation from the persistence layer.
+
+### Solution Task 2
+The following endpoint is available to use:
+```
+* CREATE
+    * HTTP Method: POST 
+    * URL: localhost:8080/compensation
+    * PAYLOAD: compensation
+    * RESPONSE: compensation
+* READ
+    * HTTP Method: GET 
+    * URL: localhost:8080/compensation/{id}
+    * RESPONSE: Compensation
+ 
+```
+The Compensation has a JSON schema of:
+```json
+{
+   "employee": {
+       "type": "Employee",
+       "properties": {
+           "employeeId": {
+               "type": "string"
+           },
+           "firstName": {
+               "type": "string"
+           },
+           "lastName": {
+               "type": "string"
+           },
+           "position": {
+               "type": "string"
+           },
+           "department": {
+               "type": "string"
+           },
+           "directReports": {
+               "type": "array",
+               "items": "string"
+           }
+     },
+     "salary":{
+           "type": "int"
+      },
+    "effectiveDate":  {
+          "type": "string"
+     }
+}
+```
 
 ## Delivery
 Please upload your results to a publicly accessible Git repo. Free ones are provided by Github and Bitbucket.

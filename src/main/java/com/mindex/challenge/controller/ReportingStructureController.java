@@ -8,9 +8,11 @@ import org.springframework.web.bind.annotation.*;
 
 
 /**
+ * Class for task 1 of the coding challenge i.e. Reporting structure,
+ * here reporting management method is available to get a list of
+ * unique reports under a given employee.
  *
- *
- *
+ * @author aashishthakur at1948@rit.edu
  */
 @RestController
 public class ReportingStructureController {
@@ -20,10 +22,11 @@ public class ReportingStructureController {
     private com.mindex.challenge.service.ReportingStructureService ReportingStructureService;
 
     /**
+     * For a given employee id, returns the list of unique reports.
      *
-     *
-     * @param id
-     * @return
+     * @param id            Employee id
+     * @return              Reporting structure which contains employee
+     *                      info along with list of reports.
      */
     @GetMapping("numberOfReports/{id}")
     public ReportingStructure reportingManagement(@PathVariable String id){

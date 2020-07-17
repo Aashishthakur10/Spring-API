@@ -7,6 +7,12 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+/**
+ * Repository class for task 2 of the coding challenge i.e. compensation,
+ * here read and update functions are available for compensation
+ *
+ * @author aashishthakur
+ */
 @Repository
 public interface CompensationRepository extends MongoRepository<Compensation, String> {
     List<Compensation> findByEmployee(Employee employee);

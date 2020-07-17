@@ -2,10 +2,10 @@ package com.mindex.challenge.data;
 import java.util.List;
 
 /**
- * Reporting Structure has two properties: employee and numberOfReports.
+ * Reporting Structure for employee consisting
+ * their number of reports.
  *
- *
- *
+ * @author aashishthakur at1948@rit.edu
  */
 public class ReportingStructure {
 
@@ -14,6 +14,12 @@ public class ReportingStructure {
 
     private Employee employee;
     private int numberOfReports;
+
+    @Override
+    public String toString() {
+        return "Compensation for employee " + employee.getFirstName() +" "+ employee.getLastName()
+                + ", and number of reports : " + numberOfReports;
+    }
 
     public Employee getEmployee() {
         return employee;

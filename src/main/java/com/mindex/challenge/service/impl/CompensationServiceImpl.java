@@ -13,6 +13,13 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ * Service implementation for Compensation includes logic
+ * for creating a new compensation for an employee or
+ * checking a list of compensations for an employee.
+ *
+ * @author aashishthakur at1948@rit.edu
+ */
 @Service
 public class CompensationServiceImpl implements CompensationService{
 
@@ -23,7 +30,12 @@ public class CompensationServiceImpl implements CompensationService{
     @Autowired
     private EmployeeRepository emp;
 
-
+    /**
+     *
+     *
+     * @param compensation
+     * @return
+     */
     @Override
     public Compensation create(Compensation compensation) {
         LOG.debug("Creating compensation [{}] for Mr. [{}] [{}]", compensation,
@@ -33,6 +45,12 @@ public class CompensationServiceImpl implements CompensationService{
         return compensation;
     }
 
+    /**
+     *
+     *
+     * @param id
+     * @return
+     */
     @Override
     public List<Compensation> read(String id) {
         LOG.debug("Compensation for [{}]",id);

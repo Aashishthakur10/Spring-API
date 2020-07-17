@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * Implementation of the service for Reporting structure.
  *
- *
+ * @author aashishthakur at1948@rit.edu
  */
 @Service
 public class ReportingStructureImpl implements ReportingStructureService {
@@ -27,12 +27,12 @@ public class ReportingStructureImpl implements ReportingStructureService {
     HashSet<String> idList = new HashSet<>();
 
     /**
-     *
+     * Gets employee information and number of reports.
      *
      *
      * @param id            Employee id to get the information along with number
      *                      of
-     * @return
+     * @return              Reporting structure with the number of reports
      */
     @Override
     public ReportingStructure getReport(String id) {
@@ -43,30 +43,39 @@ public class ReportingStructureImpl implements ReportingStructureService {
         }
         ReportingStructure report = new ReportingStructure();
         report.setEmployee(employee);
-        report.setNumberOfReports(findNumberOfReports(employee));
         idList.add(employee.getEmployeeId());
+        report.setNumberOfReports(findNumberOfReports(employee));
         return report;
     }
 
     /**
+     * Using depth first search figures out the total number of
+     * reports. (Only works for valid data, not in case it has
+     * a cycle.)
      *
-     *
-     *
-     * @param employee
-     * @return
+     * @param employee              Employee details for whom the
+     *                              query is made.
+     * @return                      The number of reports.
      */
     public int findNumberOfReports(Employee employee){
         List<Employee> directReports = employee.getDirectReports();
+        // In case there are no direct reports.
         if (directReports== null || directReports.size()==0){
             return 0;
         }
         int count = 0;
+        // loop over every sub ordinate to find if they have any reports.
         for(Employee directReport:directReports){
-            if (!idList.contains(directReport.getEmployeeId())) {
-                count += findNumberOfReports(employeeRepository.findByEmployeeId(directReport.getEmployeeId())) + 1;
-                idList.add(directReport.getEmployeeId());
+                Employee emp = employeeRepository.findByEmployeeId(directReport.getEmployeeId());
+                //Update the details in the parent structure about the reports.
+                directReport.setPosition(emp.getPosition());
+                directReport.setDepartment(emp.getDepartment());
+                directReport.setFirstName(emp.getFirstName());
+                directReport.setLastName(emp.getLastName());
+                directReport.setDirectReports(emp.getDirectReports());
+                // Increase count for every report and look for their reports.
+                count += findNumberOfReports(emp) + 1;
             }
-        }
         return count;
     }
 }

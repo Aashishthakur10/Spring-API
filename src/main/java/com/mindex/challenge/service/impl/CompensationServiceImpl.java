@@ -38,7 +38,8 @@ public class CompensationServiceImpl implements CompensationService{
         if (employee==null){
             throw new RuntimeException("Invalid request for id: " + id);
         }
-        Compensation compensation = comp.findByEmployeeEmployeeId(id);
+//        Compensation compensation = comp.findByEmployeeEmployeeId(id);
+        Compensation compensation = comp.findByEmployee(employee);
         if (compensation == null) {
             throw new RuntimeException("Invalid request for id: " + id);
         }

@@ -2,7 +2,7 @@ package com.mindex.challenge.data;
 import java.util.List;
 
 /**
- * ReportingStructure has two properties: employee and numberOfReports.
+ * Reporting Structure has two properties: employee and numberOfReports.
  *
  *
  *

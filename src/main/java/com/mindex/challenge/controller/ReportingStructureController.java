@@ -7,6 +7,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 
+/**
+ *
+ *
+ *
+ */
 @RestController
 public class ReportingStructureController {
     private static final Logger LOG = LoggerFactory.getLogger(ReportingStructureController.class);
@@ -14,7 +19,12 @@ public class ReportingStructureController {
     @Autowired
     private com.mindex.challenge.service.ReportingStructureService ReportingStructureService;
 
-
+    /**
+     *
+     *
+     * @param id
+     * @return
+     */
     @GetMapping("numberOfReports/{id}")
     public ReportingStructure reportingManagement(@PathVariable String id){
 

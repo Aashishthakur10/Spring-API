@@ -10,11 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.UUID;
 
 /**
- *
- *
+ * Implementation of the service for Reporting structure.
  *
  *
  */
@@ -30,7 +28,8 @@ public class ReportingStructureImpl implements ReportingStructureService {
      *
      *
      *
-     * @param id
+     * @param id            Employee id to get the information along with number
+     *                      of
      * @return
      */
     @Override

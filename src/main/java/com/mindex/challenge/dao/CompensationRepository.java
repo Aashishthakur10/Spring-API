@@ -15,5 +15,5 @@ import java.util.List;
  */
 @Repository
 public interface CompensationRepository extends MongoRepository<Compensation, String> {
-    List<Compensation> findByEmployee(Employee employee);
+    Compensation findByEmployee(Employee employee);
 }

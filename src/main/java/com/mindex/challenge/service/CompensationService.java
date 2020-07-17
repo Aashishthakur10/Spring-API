@@ -14,6 +14,6 @@ import java.util.List;
 public interface CompensationService {
 
     Compensation create(Compensation compensation);
-    List<Compensation> read(String id);
+    Compensation read(String id);
 
 }

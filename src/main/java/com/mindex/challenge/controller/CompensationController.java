@@ -51,7 +51,7 @@ public class CompensationController {
      * @return              List of compensation for the employee.
      */
     @GetMapping("/compensation/{id}")
-    public List<Compensation> read(@PathVariable String id) {
+    public Compensation read(@PathVariable String id) {
         LOG.debug("Reading compensation for id [{}]", id);
         return compensationService.read(id);
     }

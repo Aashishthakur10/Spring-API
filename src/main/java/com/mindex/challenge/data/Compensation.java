@@ -16,11 +16,6 @@ public class Compensation {
 
     }
 
-    @Override
-    public String toString() {
-        return "Compensation for employee " + employee.getFirstName() +" "+ employee.getLastName()
-                + ", salary : " + salary + ", and effective date = " + effectiveDate;
-    }
 
     public Employee getEmployee() {
         return employee;

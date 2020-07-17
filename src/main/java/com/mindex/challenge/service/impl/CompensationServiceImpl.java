@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.UUID;
 
 /**
  * Service implementation for Compensation includes logic
@@ -38,9 +39,11 @@ public class CompensationServiceImpl implements CompensationService{
      */
     @Override
     public Compensation create(Compensation compensation) {
-        LOG.debug("Creating compensation [{}] for Mr. [{}] [{}]", compensation,
+        LOG.debug("Creating compensation [{}] for [{}] [{}]", compensation,
                 compensation.getEmployee().getFirstName(),compensation.getEmployee().getLastName());
-
+        if (compensation.getEmployee().getEmployeeId()==null){
+            compensation.getEmployee().setEmployeeId(UUID.randomUUID().toString());
+        }
         comp.insert(compensation);
         return compensation;
     }
@@ -52,13 +55,13 @@ public class CompensationServiceImpl implements CompensationService{
      * @return
      */
     @Override
-    public List<Compensation> read(String id) {
+    public Compensation read(String id) {
         LOG.debug("Compensation for [{}]",id);
         Employee employee = emp.findByEmployeeId(id);
         if (employee==null){
             throw new RuntimeException("Invalid request for id: " + id);
         }
-        List<Compensation> compensation = comp.findByEmployee(employee);
+        Compensation compensation = comp.findByEmployee(employee);
         if (compensation == null) {
             throw new RuntimeException("Invalid request for id: " + id);
         }

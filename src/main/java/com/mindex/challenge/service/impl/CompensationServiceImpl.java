@@ -32,10 +32,10 @@ public class CompensationServiceImpl implements CompensationService{
     private EmployeeRepository emp;
 
     /**
-     *
-     *
-     * @param compensation
-     * @return
+     * Create compensation for the provided employee and contains fields
+     * employee, effective date and salary in the body.
+     * @param compensation      Comprises of the fields mentioned above.
+     * @return                  Compensation created.
      */
     @Override
     public Compensation create(Compensation compensation) {
@@ -49,10 +49,10 @@ public class CompensationServiceImpl implements CompensationService{
     }
 
     /**
+     *  Read the compensation for the employee.
      *
-     *
-     * @param id
-     * @return
+     * @param id        Employee id
+     * @return          Compensation for the employee.
      */
     @Override
     public Compensation read(String id) {

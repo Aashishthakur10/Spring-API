@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="849ba937-d097-4e64-958d-68a96b7459b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindex/challenge/controller/ReportingStructureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindex/challenge/controller/ReportingStructureController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindex/challenge/dao/CompensationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindex/challenge/dao/CompensationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindex/challenge/data/Compensation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindex/challenge/data/Compensation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindex/challenge/data/ReportingStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindex/challenge/data/ReportingStructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/CompensationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/CompensationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/impl/CompensationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/impl/CompensationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/CompensationServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/CompensationServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/ReportingStructureImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/ReportingStructureImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -40,7 +33,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="245" />
+          <entry key="java" value="258" />
           <entry key="json" value="10" />
           <entry key="md" value="1" />
           <entry key="properties" value="2" />
@@ -48,7 +41,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="245" />
+          <entry key="JAVA" value="258" />
           <entry key="JSON" value="10" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="2" />
@@ -57,12 +50,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="18" />
-          <entry key="java" value="3900" />
+          <entry key="java" value="4270" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3900" />
+          <entry key="JAVA" value="4270" />
           <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
@@ -73,8 +66,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/impl/CompensationServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="63" column="49" lean-forward="true" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+            <state relative-caret-position="810">
+              <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/impl/ReportingStructureImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-105">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,6 +88,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/ReportingStructureImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="818">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/dao/CompensationRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -95,64 +109,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/CompensationService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/dao/EmployeeRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/impl/ReportingStructureImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/controller/ReportingStructureController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.9.RELEASE/ac31864038a1c31d5a49c1bef84e5af4a162a655/spring-web-4.3.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="215" column="57" lean-forward="true" selection-start-line="215" selection-start-column="57" selection-end-line="215" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/ReportingStructureImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/CompensationServiceImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+            <state relative-caret-position="105">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,17 +123,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/data/Compensation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="360">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#583#584#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/EmployeeServiceImplTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/data/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
+                <element signature="e#1153#1154#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/data/ReportingStructure.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#468#469#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/controller/EmployeeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/controller/ReportingStructureController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -575,7 +583,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/mindex/challenge/controller/CompensationControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mindex/challenge/dao/EmployeeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mindex/challenge/data/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mindex/challenge/controller/CompensationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/impl/ReportingStructureImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/ReportingStructureService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mindex/challenge/data/ReportingStructure.java" />
@@ -583,10 +590,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/ReportingStructureImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/EmployeeServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mindex/challenge/data/Compensation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/impl/CompensationServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mindex/challenge/dao/CompensationRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/CompensationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mindex/challenge/controller/CompensationController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/CompensationServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/impl/CompensationServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -736,7 +744,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595026050398" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595026344315" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
   </component>
@@ -764,7 +772,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CompensationServiceImplTest.testCreateReadUpdate">
+  <component name="RunManager" selected="Application.ChallengeApplication">
     <configuration name="ChallengeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mindex.challenge.ChallengeApplication" />
       <module name="senior-code-challenge_main" />
@@ -794,22 +802,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataBootstrapTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="senior-code-challenge_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mindex.challenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mindex.challenge" />
-      <option name="MAIN_CLASS_NAME" value="com.mindex.challenge.DataBootstrapTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EmployeeServiceImplTest.testCreateReadUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="senior-code-challenge_test" />
       <extension name="coverage">
@@ -822,6 +814,20 @@
       <option name="MAIN_CLASS_NAME" value="com.mindex.challenge.service.impl.EmployeeServiceImplTest" />
       <option name="METHOD_NAME" value="testCreateReadUpdate" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportingStructureImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="senior-code-challenge_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mindex.challenge.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mindex.challenge.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.mindex.challenge.service.impl.ReportingStructureImplTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -844,18 +850,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ChallengeApplication" />
-      <item itemvalue="JUnit.DataBootstrapTest.test" />
       <item itemvalue="JUnit.CompensationServiceImplTest.testCreateReadUpdate" />
       <item itemvalue="JUnit.EmployeeServiceImplTest.testCreateReadUpdate" />
       <item itemvalue="JUnit.ReportingStructureImplTest.testCreateReadUpdate" />
+      <item itemvalue="JUnit.ReportingStructureImplTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChallengeApplication" />
+        <item itemvalue="JUnit.ReportingStructureImplTest" />
         <item itemvalue="JUnit.CompensationServiceImplTest.testCreateReadUpdate" />
         <item itemvalue="JUnit.ReportingStructureImplTest.testCreateReadUpdate" />
-        <item itemvalue="Application.ChallengeApplication" />
         <item itemvalue="JUnit.EmployeeServiceImplTest.testCreateReadUpdate" />
-        <item itemvalue="JUnit.DataBootstrapTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -873,21 +879,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReportingStructureImplTest_testCreateReadUpdate - 2020.07.17 at 18h 32m 14s.xml">
-      <configuration name="ReportingStructureImplTest.testCreateReadUpdate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReportingStructureImplTest_testCreateReadUpdate - 2020.07.17 at 18h 35m 24s.xml">
-      <configuration name="ReportingStructureImplTest.testCreateReadUpdate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReportingStructureImplTest_testCreateReadUpdate - 2020.07.17 at 18h 36m 37s.xml">
-      <configuration name="ReportingStructureImplTest.testCreateReadUpdate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReportingStructureImplTest_testCreateReadUpdate - 2020.07.17 at 18h 37m 10s.xml">
-      <configuration name="ReportingStructureImplTest.testCreateReadUpdate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReportingStructureImplTest_testCreateReadUpdate - 2020.07.17 at 18h 37m 52s.xml">
-      <configuration name="ReportingStructureImplTest.testCreateReadUpdate" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReportingStructureImplTest_testCreateReadUpdate - 2020.07.17 at 18h 39m 45s.xml">
       <configuration name="ReportingStructureImplTest.testCreateReadUpdate" configurationId="JUnit" />
     </history-entry>
@@ -903,6 +894,21 @@
     <history-entry file="CompensationServiceImplTest_testCreateReadUpdate - 2020.07.17 at 18h 43m 08s.xml">
       <configuration name="CompensationServiceImplTest.testCreateReadUpdate" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CompensationServiceImplTest_testCreateReadUpdate - 2020.07.17 at 18h 47m 22s.xml">
+      <configuration name="CompensationServiceImplTest.testCreateReadUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompensationServiceImplTest_testCreateReadUpdate - 2020.07.17 at 18h 48m 41s.xml">
+      <configuration name="CompensationServiceImplTest.testCreateReadUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompensationServiceImplTest_testCreateReadUpdate - 2020.07.17 at 18h 49m 19s.xml">
+      <configuration name="CompensationServiceImplTest.testCreateReadUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompensationServiceImplTest_testCreateReadUpdate - 2020.07.17 at 18h 51m 34s.xml">
+      <configuration name="CompensationServiceImplTest.testCreateReadUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReportingStructureImplTest - 2020.07.17 at 18h 51m 51s.xml">
+      <configuration name="ReportingStructureImplTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -917,12 +923,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32891566" />
@@ -986,23 +992,10 @@
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/CompensationServiceImplTest.java</url>
-          <line>76</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/1.10.4.RELEASE/b719b9542c53178a84945b4f3ca13351c7396670/spring-data-mongodb-1.10.4.RELEASE-sources.jar!/org/springframework/data/mongodb/repository/MongoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.5.15/4fc09fb2ba305bd3aef410f718c6be7f46a30843/tomcat-embed-websocket-8.5.15-sources.jar!/org/apache/tomcat/websocket/server/WsFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1192,16 +1185,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/dao/EmployeeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/EmployeeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1226,16 +1209,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -1257,24 +1230,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/data/ReportingStructure.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.9.RELEASE/ac31864038a1c31d5a49c1bef84e5af4a162a655/spring-web-4.3.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="330">
+          <caret line="215" column="57" lean-forward="true" selection-start-line="215" selection-start-column="57" selection-end-line="215" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/CompensationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
-            <element signature="e#468#469#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="837" selection-start-line="837" selection-end-line="837" />
+        <state relative-caret-position="150">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
           <folding>
+            <element signature="e#4403#4404#0" expanded="true" />
             <element signature="e#24178#24179#0" expanded="true" />
             <element signature="e#24230#24231#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/CompensationServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/EmployeeServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1287,10 +1295,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/controller/CompensationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="35" />
+        <state relative-caret-position="315">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/controller/ReportingStructureController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/dao/CompensationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/dao/EmployeeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/data/Compensation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#583#584#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1311,9 +1369,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/data/ReportingStructure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#468#469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/impl/CompensationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/impl/ReportingStructureImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="-105">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1321,81 +1399,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/controller/ReportingStructureController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.9.RELEASE/ac31864038a1c31d5a49c1bef84e5af4a162a655/spring-web-4.3.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="215" column="57" lean-forward="true" selection-start-line="215" selection-start-column="57" selection-end-line="215" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/ReportingStructureImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="818">
           <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/EmployeeServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mindex/challenge/service/impl/CompensationServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/impl/CompensationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="63" column="49" lean-forward="true" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/service/CompensationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/data/Compensation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mindex/challenge/dao/CompensationRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

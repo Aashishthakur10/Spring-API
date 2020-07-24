@@ -1,5 +1,4 @@
-# Coding Challenge
-## What's Provided
+
 A simple [Spring Boot](https://projects.spring.io/spring-boot/) web application has been created and bootstrapped 
 with data. The application contains information about all employees at a company. On application start-up, an in-memory 
 Mongo database is bootstrapped with a serialized snapshot of the database. While the application runs, the data may be
@@ -170,6 +169,3 @@ The Compensation has a JSON schema of:
      }
 }
 ```
-
-## Delivery
-Please upload your results to a publicly accessible Git repo. Free ones are provided by Github and Bitbucket.
